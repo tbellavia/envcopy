@@ -6,10 +6,9 @@ Copy variables from a `.env` file directly from Emacs.
 
 Run:
 
-`M-x envcopy-get-variable``
+`M-x envcopy-get-variable`
 
 Or bind it to a key:
-
 
 ``` emacs-lisp
 (map! :leader
@@ -31,6 +30,7 @@ Or bind it to a key:
 
 ``` emacs-lisp
 ; packages.el
+
 (package! envcopy
   :recipe (:host github
            :repo "tbellavia/envcopy"))
